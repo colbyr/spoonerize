@@ -3,10 +3,25 @@
   "version": "1.0.0",
   "description": "spoonerisms made easy",
   "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "test": "jest"
+  },
   "repository": {
     "url": "git@github.com:colbyr/spoonerize.git",
     "type": "git"
   },
   "author": "Colby Rabideau <me@colbyr.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.16.0",
+    "babel-jest": "^16.0.0",
+    "babel-plugin-transform-flow-strip-types": "^6.14.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "flow-bin": "^0.33.0",
+    "jest": "^16.0.2"
+  }
 }
