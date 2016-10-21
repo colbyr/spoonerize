@@ -1,0 +1,12 @@
+{
+  "name": "spoonerize",
+  "version": "1.0.0",
+  "description": "spoonerisms made easy",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:colbyr/spoonerize.git",
+    "type": "git"
+  },
+  "author": "Colby Rabideau <me@colbyr.com>",
+  "license": "MIT"
+}
